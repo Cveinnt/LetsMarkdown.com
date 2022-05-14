@@ -6,7 +6,6 @@ on:
       - main
     paths-ignore:
       - "**/README.md"
-      - "**/demo.png"
   pull_request:
     branches:
       - main
