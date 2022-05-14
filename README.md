@@ -5,7 +5,7 @@ Fast, minimal web editor that makes markdown editing **collaborative** and
 
 <p align="center">
 <a href="https://LetsMarkdown.com/">
-<img src="./public/static/demo.png" width="800"><br>
+<img src="./public/static/lmd_demo.gif" width="800"><br>
 <strong>LetsMarkdown.com</strong>
 </a>
 </p>
