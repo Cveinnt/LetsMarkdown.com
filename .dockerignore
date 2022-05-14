@@ -1,0 +1,11 @@
+/.git
+/target
+pkg
+/node_modules
+/dist
+*.local
+
+Dockerfile
+.dockerignore
+.env
+README.md

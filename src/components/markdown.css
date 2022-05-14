@@ -1,0 +1,121 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 15px Helvetica, arial, freesans, clean, sans-serif;
+  word-wrap: break-word;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre {
+  margin: 15px 0;
+}
+
+td,
+th {
+  border: 1px solid #e8e8e8;
+  padding: 8px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+blockquote {
+  border-left: 8px solid #e8e8e8;
+  padding: 1rem;
+}
+
+ul,
+ol {
+  padding-left: 30px;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  color: #777;
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  line-height: 1.7;
+  margin: 0em 0 15px 0;
+}
+
+h1 + p,
+h2 + p,
+h3 + p {
+  margin-top: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+code {
+  color: #c7254e;
+}
+
+code,
+pre {
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: pre;
+}
+
+pre code {
+  color: inherit;
+  border: none;
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+}

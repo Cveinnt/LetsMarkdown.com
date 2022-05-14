@@ -1,0 +1,19 @@
+body {
+  overscroll-behavior: none;
+  overflow: hidden;
+}
+
+/* Hack: Fix number rendering in abcjs audio controller. */
+.abcjs-midi-tempo {
+  color: black;
+}
+
+.abcjs-highlight {
+  fill: #0071c3;
+}
+
+.abcjs-cursor {
+  stroke: rgba(75, 159, 162, 0.4);
+  stroke-width: 28px;
+  transform: translateX(6px);
+}

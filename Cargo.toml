@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+  "letsmarkdown-server",
+  "letsmarkdown-wasm",
+]
