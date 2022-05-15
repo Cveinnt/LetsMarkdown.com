@@ -109,7 +109,7 @@ repository. You can pull the latest version of this image from Docker Hub. It
 has multi-platform support for linux/amd64 and linux/arm64.
 
 ```
-docker pull cveinnt/LetsMarkdown.com
+docker pull cveinnt/letsmarkdown
 ```
 
 (You can also manually build this image with `docker build -t rustpad .` in the
@@ -117,7 +117,7 @@ project root directory.) To run locally, execute the following command, then
 open `http://localhost:3030` in your browser.
 
 ```
-docker run --rm -dp 3030:3030 cveinnt/LetsMarkdown.com
+docker run --rm -dp 3030:3030 cveinnt/letsmarkdown
 ```
 
 I deploy a public instance of this image with
