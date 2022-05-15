@@ -1,4 +1,4 @@
-<!-- Dsiclaimer: sample from http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html -->
+<!-- Disclaimer: sample from http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html -->
 
 # An h1 header
 
