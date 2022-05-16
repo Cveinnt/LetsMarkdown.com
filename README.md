@@ -38,9 +38,9 @@ previewing the file, etc?
 
 ## Tech Stack
 
-- Fontend: React.js (TypeSript), Vite.js, Chakra UI
+- Frontend: React.js (TypeSript), Vite.js, Chakra UI
   - Editor & markdown preview: Monaco, mardown-it.js, highlight.js
-- Banckend: Rust, WebAssembly, Node.js
+- Backend: Rust, WebAssembly, Node.js
 - Deployment & hosting: Docker, DigitalOcean
 - CI/CD: Github Action
 - Formatting: Prettier, Rustfmt
