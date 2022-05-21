@@ -6,6 +6,7 @@ import emoji from "markdown-it-emoji";
 import footnote from "markdown-it-footnote";
 import sup from "markdown-it-sup";
 import sub from "markdown-it-sub";
+import sanitizer from "markdown-it-sanitizer";
 import hljs from "highlight.js";
 import * as markdown from "./markdown.css";
 import * as modest from "./modest.css";
@@ -41,13 +42,10 @@ function Score({ notes, darkMode }: ScoreProps) {
         },
       })
         .use(emoji)
+        .use(sanitizer)
         .use(footnote)
         .use(sup)
         .use(sub);
-      // let value =
-      //   notes === ""
-      //     ? "Type some markdown to get started or load an example!"
-      //     : notes;
       let value = notes;
       let result = md.render(value);
       document.getElementById("preview")!.innerHTML = result;
