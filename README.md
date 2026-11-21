@@ -10,6 +10,10 @@ Fast, minimal web editor that makes markdown editing **collaborative** and
 </a>
 </p>
 
+This project includes work by
+[Vincent Wu (Wensen Wu)](https://www.wensenwu.com/) and
+[Eric Zhang](https://github.com/ekzhang), as credited in the [license](LICENSE).
+
 ## Motivation
 
 \> I want to edit markdown files with my friends, but sending/resending files,
