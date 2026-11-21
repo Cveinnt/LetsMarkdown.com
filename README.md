@@ -10,7 +10,9 @@ Fast, minimal web editor that makes markdown editing **collaborative** and
 </a>
 </p>
 
-Created by [Vincent Wu (Wensen Wu)](https://www.wensenwu.com/).
+This project includes work by
+[Vincent Wu (Wensen Wu)](https://www.wensenwu.com/) and
+[Eric Zhang](https://github.com/ekzhang), as credited in the [license](LICENSE).
 
 ## Motivation
 
